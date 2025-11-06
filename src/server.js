@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Import routes
-const contactRoutes = require('./routes/ContactRoutes.js');
+const contactRoutes = require('./routes/contactRoutes.js');
 const bookingRoutes = require('./routes/bookRoutes');
 
 // Use routes
